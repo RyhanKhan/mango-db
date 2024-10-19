@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const phSchema = new mongoose.Schema({
+const temperatureSchema = new mongoose.Schema({
   value: {
     type: Number,
     required: true,
@@ -11,6 +11,6 @@ const phSchema = new mongoose.Schema({
   },
 });
 
-const ph = mongoose.model("ph", phSchema);
+const temperature = mongoose.model("temperature", temperatureSchema);
 
-export default ph;
+export default temperature;
