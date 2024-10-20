@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IoT Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>MangoDB IoT Dashboard</h2>
+
+    <label for="crop">Select Crop:</label>
+    <select id="crop">
+      <option value="wheat">Wheat</option>
+      <option value="rice">Rice</option>
+      <option value="sugarcane">Sugarcane</option>
+      <option value="maize">Maize</option>
+      <option value="cotton">Cotton</option>
+    </select>
+
+    <label for="soil_pH">Soil pH:</label>
+    <input type="text" id="soil_pH" placeholder="Enter Soil pH value">
+
+    <label for="moisture_content">Soil Moisture:</label>
+    <input type="text" id="moisture_content" placeholder="Enter Soil Moisture value">
+
+    <label for="nitrogen_content">Nitrogen Content:</label>
+    <input type="text" id="nitrogen_content" placeholder="Enter Nitrogen Content value">
+
+    <label for="temperature">Temperature:</label>
+    <input type="text" id="temperature" placeholder="Enter Temperature value">
+
+    <label for="precipitation">Precipitation:</label>
+    <input type="text" id="precipitation" placeholder="Enter Precipitation value">
+
+    <label for="humidity">Humidity:</label>
+    <input type="text" id="humidity" placeholder="Enter Humidity value">
+
+    <label for="interval">Set Update Interval (in seconds):</label>
+    <input type="range" id="intervalSlider" min="1" max="10" value="5">
+    <span id="intervalValue">5</span> sec
+
+    <p>Time Remaining for Next Update: <span id="timerDisplay">5000</span> ms</p>
+
+    <button id="startBtn">Start Sending Data</button>
+    <button id="stopBtn">Stop Sending Data</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

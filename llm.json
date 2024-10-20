@@ -1,0 +1,200 @@
+{
+    "crops": {
+        "Rice": {
+            "metrics": {
+                "soil_ph": [
+                    {
+                        "tag": "Severely High",
+                        "lrange": 8.1,
+                        "hrange": 9.0,
+                        "solution": "Apply 5-10 tons of gypsum per hectare, followed by deep tillage to neutralize soil alkalinity."
+                    },
+                    {
+                        "tag": "Moderately High",
+                        "lrange": 7.6,
+                        "hrange": 8.0,
+                        "solution": "Incorporate compost or sulfuric acid to bring pH to 6.5-7.5 range."
+                    },
+                    {
+                        "tag": "Adequate",
+                        "lrange": 5.5,
+                        "hrange": 7.5,
+                        "solution": "Soil pH is ideal for rice cultivation."
+                    },
+                    {
+                        "tag": "Moderately Low",
+                        "lrange": 4.6,
+                        "hrange": 5.4,
+                        "solution": "Use 2-3 tons of lime per hectare to raise soil pH gradually."
+                    },
+                    {
+                        "tag": "Severely Low",
+                        "lrange": 3.0,
+                        "hrange": 4.5,
+                        "solution": "Broadcast 4-6 tons of agricultural lime per hectare to neutralize soil acidity."
+                    }
+                ],
+                "nitrogen_content": [
+                    {
+                        "tag": "Severely High",
+                        "lrange": 251,
+                        "hrange": 300,
+                        "solution": "Reduce urea application by 50%, supplement with phosphorus to improve nutrient balance."
+                    },
+                    {
+                        "tag": "Moderately High",
+                        "lrange": 201,
+                        "hrange": 250,
+                        "solution": "Use slow-release nitrogen fertilizer to prevent leaching and over-fertilization."
+                    },
+                    {
+                        "tag": "Adequate",
+                        "lrange": 100,
+                        "hrange": 200,
+                        "solution": "Nitrogen levels are sufficient for optimal rice growth."
+                    },
+                    {
+                        "tag": "Moderately Low",
+                        "lrange": 51,
+                        "hrange": 99,
+                        "solution": "Apply 40-60 kg/ha of urea during the tillering stage."
+                    },
+                    {
+                        "tag": "Severely Low",
+                        "lrange": 0,
+                        "hrange": 50,
+                        "solution": "Use split nitrogen applications, 60 kg/ha at planting, and 40 kg/ha during panicle initiation."
+                    }
+                ],
+                "moisture_content": [
+                    {
+                        "tag": "Severely High",
+                        "lrange": 91,
+                        "hrange": 100,
+                        "solution": "Construct drainage ditches to remove excess water and prevent waterlogging."
+                    },
+                    {
+                        "tag": "Moderately High",
+                        "lrange": 81,
+                        "hrange": 90,
+                        "solution": "Switch to alternate wetting and drying irrigation to reduce excess moisture."
+                    },
+                    {
+                        "tag": "Adequate",
+                        "lrange": 70,
+                        "hrange": 80,
+                        "solution": "Moisture content is optimal for rice production."
+                    },
+                    {
+                        "tag": "Moderately Low",
+                        "lrange": 50,
+                        "hrange": 69,
+                        "solution": "Increase irrigation intervals, especially during critical growth stages like flowering."
+                    },
+                    {
+                        "tag": "Severely Low",
+                        "lrange": 0,
+                        "hrange": 49,
+                        "solution": "Use flood irrigation or install submersible pumps to ensure adequate water supply."
+                    }
+                ],
+                "temperature": [
+                    {
+                        "tag": "Severely High",
+                        "lrange": 36,
+                        "hrange": 40,
+                        "solution": "Plant high-temperature tolerant rice varieties like Sahbhagi Dhan or N22."
+                    },
+                    {
+                        "tag": "Moderately High",
+                        "lrange": 32,
+                        "hrange": 35,
+                        "solution": "Increase irrigation during peak heat hours to reduce soil temperature."
+                    },
+                    {
+                        "tag": "Adequate",
+                        "lrange": 22,
+                        "hrange": 31,
+                        "solution": "Temperature levels are perfect for rice growth."
+                    },
+                    {
+                        "tag": "Moderately Low",
+                        "lrange": 15,
+                        "hrange": 21,
+                        "solution": "Use early-maturing rice varieties for short cool growing seasons."
+                    },
+                    {
+                        "tag": "Severely Low",
+                        "lrange": 0,
+                        "hrange": 14,
+                        "solution": "Delay planting until temperatures rise above 15°C for optimal germination."
+                    }
+                ],
+                "humidity": [
+                    {
+                        "tag": "Severely High",
+                        "lrange": 91,
+                        "hrange": 100,
+                        "solution": "Improve field ventilation by removing excess vegetation, use fungicides to prevent fungal diseases."
+                    },
+                    {
+                        "tag": "Moderately High",
+                        "lrange": 76,
+                        "hrange": 90,
+                        "solution": "Install windbreaks to improve air circulation, reduce irrigation slightly."
+                    },
+                    {
+                        "tag": "Adequate",
+                        "lrange": 60,
+                        "hrange": 75,
+                        "solution": "Humidity levels are suitable for rice production."
+                    },
+                    {
+                        "tag": "Moderately Low",
+                        "lrange": 40,
+                        "hrange": 59,
+                        "solution": "Increase irrigation and maintain standing water to raise humidity in microclimate."
+                    },
+                    {
+                        "tag": "Severely Low",
+                        "lrange": 0,
+                        "hrange": 39,
+                        "solution": "Use misting systems to artificially raise air moisture content."
+                    }
+                ],
+                "precipitation": [
+                    {
+                        "tag": "Severely High",
+                        "lrange": 301,
+                        "hrange": 400,
+                        "solution": "Build high-capacity drainage systems and reduce irrigation during heavy rains."
+                    },
+                    {
+                        "tag": "Moderately High",
+                        "lrange": 251,
+                        "hrange": 300,
+                        "solution": "Monitor soil moisture and avoid irrigation during high rainfall periods."
+                    },
+                    {
+                        "tag": "Adequate",
+                        "lrange": 150,
+                        "hrange": 250,
+                        "solution": "Precipitation levels are suitable for rice."
+                    },
+                    {
+                        "tag": "Moderately Low",
+                        "lrange": 100,
+                        "hrange": 149,
+                        "solution": "Increase irrigation frequency to compensate for below-average rainfall."
+                    },
+                    {
+                        "tag": "Severely Low",
+                        "lrange": 0,
+                        "hrange": 99,
+                        "solution": "Install rainwater harvesting systems and use drip irrigation to conserve water."
+                    }
+                ]
+            }
+        }
+    }
+}
